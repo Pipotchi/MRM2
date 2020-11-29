@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerRB
+  - FriendlyBullet
+  - EnemyBullet
+  - Orbiting
+  - Enemy
+  - Room
+  - BulletPattern
+  - RoomWalls
+  - Door
+  - Obstacle
+  - Hitbox
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 1850137509
+    locked: 0
+  - name: Rooms
+    uniqueID: 2237965585
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enemies
+    uniqueID: 877091201
+    locked: 0
+  - name: FG
+    uniqueID: 3202997839
+    locked: 0
