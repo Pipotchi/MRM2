@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dbf4b8c2245b3f4a85afeb170df55d4, type: 3}
+  m_Name: Basic Room Inventory
+  m_EditorClassIdentifier: 
+  Container:
+  - {fileID: 8022705475344263818, guid: cd5c28a457932f64d886107f5a62fdfd, type: 3}
+  - {fileID: 432320390625490916, guid: 8a28fbc94f3346842a2f94185cd5f354, type: 3}
+  - {fileID: 8446366227822261223, guid: 347d039d408889e4a9d6fcc3cea13394, type: 3}

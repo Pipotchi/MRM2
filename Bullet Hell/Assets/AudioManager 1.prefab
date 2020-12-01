@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6409059135966659764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6409059135966659766}
+  - component: {fileID: 6409059135966659765}
+  m_Layer: 0
+  m_Name: AudioManager 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6409059135966659766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409059135966659764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6409059135966659765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409059135966659764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa291abd99a320d42ba1b50fcd45af3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: DestroyObject
+    clip: {fileID: 8300000, guid: 0d0c03b0efa5ab146a978b1681e2c668, type: 3}
+    volume: 0.287
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ShotAster
+    clip: {fileID: 8300000, guid: dd7a451651d94dd47b4a9ef51f78fce5, type: 3}
+    volume: 0.287
+    pitch: 3
+    source: {fileID: 0}
+    loop: 0
+  - name: HitEnemy
+    clip: {fileID: 8300000, guid: 6ea9095bcc25b7247a1d756d91727028, type: 3}
+    volume: 0.287
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: HitRock
+    clip: {fileID: 8300000, guid: c1470c15b33c20a49848669c816e475e, type: 3}
+    volume: 0.287
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: DestroyStar
+    clip: {fileID: 8300000, guid: aef849038449636498b560178109d12c, type: 3}
+    volume: 0.287
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ShotStar
+    clip: {fileID: 8300000, guid: d87c3d3d6a85b8e47aa2f007f252d540, type: 3}
+    volume: 0.287
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Theme
+    clip: {fileID: 8300000, guid: 66d07ab43b305f24a990d76a74f1b6d5, type: 3}
+    volume: 0.249
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: BossTheme
+    clip: {fileID: 8300000, guid: 7db1ce95ba72ec24bbbf408bc1fc303c, type: 3}
+    volume: 0.249
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Footstep
+    clip: {fileID: 8300000, guid: 07662be2a8508f44394b6b07dfbc3d24, type: 3}
+    volume: 0.249
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: PlayerFire
+    clip: {fileID: 8300000, guid: 97c7ebce385c1694397f67d75155a4b5, type: 3}
+    volume: 0.249
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Bubble
+    clip: {fileID: 8300000, guid: 3d646f63e84de2147ab8ea6869c496d4, type: 3}
+    volume: 0.249
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: LaserCharge
+    clip: {fileID: 8300000, guid: 3d6b13356b71a3048a8bdfe6ee61629e, type: 3}
+    volume: 0.249
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: LaserFire
+    clip: {fileID: 8300000, guid: d1eba842811bdb343bd9d640faab8870, type: 3}
+    volume: 0.249
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Teleport
+    clip: {fileID: 8300000, guid: 5211e94dc486d1242b1f8cb8e000a555, type: 3}
+    volume: 0.249
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Tooth
+    clip: {fileID: 8300000, guid: 155bcf3745cffba4f9d3988566e5daab, type: 3}
+    volume: 0.249
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Filler
+    clip: {fileID: 8300000, guid: 97c7ebce385c1694397f67d75155a4b5, type: 3}
+    volume: 0.249
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
